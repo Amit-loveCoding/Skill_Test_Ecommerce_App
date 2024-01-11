@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/LoginHere.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const LoginHere = () => {
   const navigate = useNavigate();
@@ -42,6 +43,11 @@ const LoginHere = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
+        <br />
+
+        <Link to={"/login/loginHere/password"} className="password-link">
+          <p>Forgot passwword ?</p>
+        </Link>
         <button onClick={handleButtonClick}>Sign In</button>
       </div>
     </div>

@@ -16,6 +16,7 @@ import LoginHere from "./Components/LoginHere";
 import About from "./Components/About";
 import Company from "./Components/Company";
 import Contact from "./Components/Contact";
+import ForgetPassword from "./Components/ForgetPassword";
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -86,6 +87,11 @@ const App = () => {
             <Route exact path="/help" element={<Help />} />
             <Route path="/login" element={<LoginSignup />}></Route>
             <Route path="/login/loginHere" element={<LoginHere />} />
+            <Route path="/login/loginHere" element={<LoginHere />} />
+            <Route
+              path="/login/loginHere/password"
+              element={<ForgetPassword />}
+            />
             <Route path="/about" element={<About />}></Route>
             <Route path="/company" element={<Company />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

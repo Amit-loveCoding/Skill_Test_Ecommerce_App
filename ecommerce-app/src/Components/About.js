@@ -1,4 +1,5 @@
 import React from "react";
+import { FaShopify } from "react-icons/fa";
 
 function About() {
   return (
@@ -24,16 +25,17 @@ function About() {
           animation: "emergeOut 1s ease-out",
         }}
       >
-        "E$HOPPER is your premier online shopping destination, offering a
-        diverse array of high-quality products curated for your every need. From
-        the latest fashion trends to cutting-edge electronics, we bring you a
-        seamless and secure shopping experience. Our commitment to customer
-        satisfaction is evident in our user-friendly platform, attentive
-        customer service, and a mission to simplify and enhance your online
-        shopping journey. At E$HOPPER, we prioritize your trust, delivering a
-        unique blend of variety, reliability, and convenience. Welcome to a
-        world of endless possibilities, where your satisfaction is our top
-        priority. Happy shopping with E$HOPPER!"
+        "<FaShopify /> $HOPIFY is your premier online shopping destination,
+        offering a diverse array of high-quality products curated for your every
+        need. From the latest fashion trends to cutting-edge electronics, we
+        bring you a seamless and secure shopping experience. Our commitment to
+        customer satisfaction is evident in our user-friendly platform,
+        attentive customer service, and a mission to simplify and enhance your
+        online shopping journey. At <FaShopify /> $HOPIFY, we prioritize your
+        trust, delivering a unique blend of variety, reliability, and
+        convenience. Welcome to a world of endless possibilities, where your
+        satisfaction is our top priority. Happy shopping with <FaShopify />{" "}
+        $HOPIFY!"
       </p>
     </div>
   );

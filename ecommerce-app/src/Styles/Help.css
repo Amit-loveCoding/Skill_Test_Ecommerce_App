@@ -15,7 +15,6 @@ body, html {
   justify-content: center; 
   align-items: center; 
   animation: emergeOut 1s ease-out;
- 
 }
 
 .feedContainer {
@@ -62,9 +61,15 @@ body, html {
   font-size: 18px;
   margin-top: 20px;
   border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.customer-detail .feedback-desription {
+.customer-detail input:focus {
+  border-color: #00467f; /* Change the border color on focus */
+  box-shadow: 0 0 5px rgba(0, 70, 127, 0.5); /* Add a box shadow on focus */
+}
+
+.customer-detail .feedback-description {
   height: 100px;
 }
 

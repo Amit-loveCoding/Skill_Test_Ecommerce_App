@@ -1,4 +1,5 @@
 import React from "react";
+import { FaShopify } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -6,7 +7,10 @@ const Contact = () => {
       <br />
       <h1>Contact Us</h1>
       <br />
-      <h3>$HOPIFY Cannaught Place,New Delhi-110001</h3>
+      <h3>
+        {" "}
+        <FaShopify /> $HOPIFY Cannaught Place,New Delhi-110001
+      </h3>
       <br />
       <p>
         Phone: +91-9650596248
